@@ -10,7 +10,7 @@ variables:
   group: common-vars
 
 pool:
-  vmImage: '${sharedImageName}'
+  vmImage: 'windows-latest'
 
 steps:
 - task: NodeTool@0
