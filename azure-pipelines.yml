@@ -10,7 +10,7 @@ variables:
   group: common-vars
 
 pool:
-  vmImage: '${imageName}'
+  vmImage: '${sharedImageName}'
 
 steps:
 - task: NodeTool@0
