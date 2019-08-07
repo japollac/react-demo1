@@ -6,8 +6,11 @@
 trigger:
 - master
 
+variables:
+  group: common-vars
+
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: '${imageName}'
 
 steps:
 - task: NodeTool@0
